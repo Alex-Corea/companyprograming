@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Programación Avanzada</title>
+    <link rel="stylesheet" href="company.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        </header>
+
+    <section class="contacto-content">
+        <h2 data-aos="fade-up">Contáctanos</h2>
+        <p data-aos="fade-up" data-aos-delay="200">¿Tienes alguna pregunta o necesitas un presupuesto? ¡No dudes en contactarnos!</p>
+        <form data-aos="fade-up" data-aos-delay="300" action="enviar_correo.php" method="POST">
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            <input type="email" name="email" placeholder="Correo Electrónico" required>
+            <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+            <button type="submit" class="cta">Enviar Mensaje</button>
+        </form>
+        <div class="contacto-info" data-aos="fade-up" data-aos-delay="400">
+            <h3>Información de Contacto</h3>
+            <p><i class="fas fa-map-marker-alt"></i> san salvador </p>
+            <p><i class="fas fa-phone"></i> +503 7883 2117</p>
+            <p><i class="fas fa-envelope"></i> companyprograming@gmail.com</p>
+        </div>
+    </section>
+
+    <footer>
+        </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="company.js"></script>
+</body>
+</html>
